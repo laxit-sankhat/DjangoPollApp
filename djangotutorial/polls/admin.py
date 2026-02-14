@@ -22,3 +22,7 @@ class QuestionAdmin(admin.ModelAdmin):
 
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(Choice)
+
+admin.site.site_header = "Polls Administration"
+admin.site.site_title = "Polls Admin Portal"
+admin.site.index_title = "Manage Polls"
